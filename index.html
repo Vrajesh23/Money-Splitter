@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+  <!-- Author: Vrajesh Thaker -->
+     <!--Craeted for educational use.-->
+  <!-- This is a Money Splitter application -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Money Splitter</title>
+</head>
+<body>
+  <header>
+    <h1>Money Splitter</h1>
+  </header>
+
+  <div class="container">
+    <main>
+      <div class="form-container">
+        <form>
+          <label for="amount">Enter the amount to split:</label>
+          <input type="number" id="amount" required>
+
+          <label for="numberOfPeople">Enter the number of people:</label>
+          <input type="number" id="numberOfPeople" required>
+
+          <button id="splitItBtn" type="submit">Split It</button>
+          <button id="resetBtn" type="reset">Reset</button>
+        </form>
+      </div>
+
+      <div id="resultContainer" class="result"></div>
+
+      <div id="historyContainer"></div>
+    </main>
+  </div>
+
+  <footer>
+    <p id="hoursWorkedText">&copy; Money Splitter by  <a href="https://www.linkedin.com/in/vrajesh-thaker-1886731bb/">Vrajesh</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
